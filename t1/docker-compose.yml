@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  tomcat:
+    image: tomcat:9.0
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./target/t1-1.0-SNAPSHOT.war:/usr/local/tomcat/webapps/t1-1.0-SNAPSHOT.war
+    restart: on-failure
