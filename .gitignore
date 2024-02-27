@@ -26,3 +26,7 @@ replay_pid*
 target/
 .idea/
 *.iml
+
+mvnw
+mvnw.cmd
+*/.mvn
